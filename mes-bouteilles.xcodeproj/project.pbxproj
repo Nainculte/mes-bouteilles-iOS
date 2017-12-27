@@ -41,8 +41,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FDABAE3B1FF25C8500CC5D89 /* RxBlocking.framework in Frameworks */,
 				FDABAE3C1FF25C8500CC5D89 /* RealmSwift.framework in Frameworks */,
+				FDABAE3B1FF25C8500CC5D89 /* RxBlocking.framework in Frameworks */,
 				FDABAE3D1FF25C8500CC5D89 /* RxCocoa.framework in Frameworks */,
 				FDABAE3E1FF25C8500CC5D89 /* RxRealm.framework in Frameworks */,
 				FDABAE3F1FF25C8500CC5D89 /* RxSwift.framework in Frameworks */,
@@ -177,6 +177,7 @@
 				"$(SRCROOT)/Carthage/Build/iOS/RxCocoa.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/RxRealm.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/RxSwift.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RealmSwift.framework",
 			);
 			outputPaths = (
 				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/Realm.framework",
@@ -185,10 +186,11 @@
 				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/RxCocoa.framework",
 				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/RxRealm.framework",
 				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/RxSwift.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/RealmSwift.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "";
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
 		};
 /* End PBXShellScriptBuildPhase section */
 
