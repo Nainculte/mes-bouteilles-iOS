@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FD19C45A1FF57105006205DF /* Cellar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD19C4591FF57105006205DF /* Cellar.swift */; };
+		FD19C45C1FF57174006205DF /* Bottle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD19C45B1FF57174006205DF /* Bottle.swift */; };
+		FD19C45E1FF57503006205DF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD19C45D1FF57503006205DF /* ViewController.swift */; };
+		FD19C4601FF57517006205DF /* CellarsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD19C45F1FF57517006205DF /* CellarsViewController.swift */; };
+		FD19C4621FF57558006205DF /* BottlesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD19C4611FF57558006205DF /* BottlesViewController.swift */; };
+		FD19C4641FF57569006205DF /* BottleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD19C4631FF57569006205DF /* BottleViewController.swift */; };
 		FDABAE3B1FF25C8500CC5D89 /* RxBlocking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDABAE351FF25C8500CC5D89 /* RxBlocking.framework */; };
 		FDABAE3C1FF25C8500CC5D89 /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDABAE361FF25C8500CC5D89 /* RealmSwift.framework */; };
 		FDABAE3D1FF25C8500CC5D89 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDABAE371FF25C8500CC5D89 /* RxCocoa.framework */; };
@@ -14,13 +20,18 @@
 		FDABAE3F1FF25C8500CC5D89 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDABAE391FF25C8500CC5D89 /* RxSwift.framework */; };
 		FDABAE401FF25C8500CC5D89 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDABAE3A1FF25C8500CC5D89 /* Realm.framework */; };
 		FDD9DEA81FF24D420002878D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD9DEA71FF24D420002878D /* AppDelegate.swift */; };
-		FDD9DEAA1FF24D420002878D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD9DEA91FF24D420002878D /* ViewController.swift */; };
 		FDD9DEAD1FF24D420002878D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDD9DEAB1FF24D420002878D /* Main.storyboard */; };
 		FDD9DEAF1FF24D420002878D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDD9DEAE1FF24D420002878D /* Assets.xcassets */; };
 		FDD9DEB21FF24D420002878D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDD9DEB01FF24D420002878D /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FD19C4591FF57105006205DF /* Cellar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cellar.swift; sourceTree = "<group>"; };
+		FD19C45B1FF57174006205DF /* Bottle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bottle.swift; sourceTree = "<group>"; };
+		FD19C45D1FF57503006205DF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FD19C45F1FF57517006205DF /* CellarsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellarsViewController.swift; sourceTree = "<group>"; };
+		FD19C4611FF57558006205DF /* BottlesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottlesViewController.swift; sourceTree = "<group>"; };
+		FD19C4631FF57569006205DF /* BottleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottleViewController.swift; sourceTree = "<group>"; };
 		FDABAE351FF25C8500CC5D89 /* RxBlocking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxBlocking.framework; path = Carthage/Build/iOS/RxBlocking.framework; sourceTree = "<group>"; };
 		FDABAE361FF25C8500CC5D89 /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealmSwift.framework; path = Carthage/Build/iOS/RealmSwift.framework; sourceTree = "<group>"; };
 		FDABAE371FF25C8500CC5D89 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
@@ -29,7 +40,6 @@
 		FDABAE3A1FF25C8500CC5D89 /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Realm.framework; path = Carthage/Build/iOS/Realm.framework; sourceTree = "<group>"; };
 		FDD9DEA41FF24D420002878D /* mes-bouteilles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "mes-bouteilles.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDD9DEA71FF24D420002878D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FDD9DEA91FF24D420002878D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FDD9DEAC1FF24D420002878D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FDD9DEAE1FF24D420002878D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FDD9DEB11FF24D420002878D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -53,6 +63,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FD19C4551FF4FD1B006205DF /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FD19C45D1FF57503006205DF /* ViewController.swift */,
+				FD19C45F1FF57517006205DF /* CellarsViewController.swift */,
+				FD19C4611FF57558006205DF /* BottlesViewController.swift */,
+				FD19C4631FF57569006205DF /* BottleViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		FD19C4561FF4FDDD006205DF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FD19C4591FF57105006205DF /* Cellar.swift */,
+				FD19C45B1FF57174006205DF /* Bottle.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FD19C4571FF4FDEF006205DF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FD19C4581FF4FE01006205DF /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		FDABAE341FF25C8500CC5D89 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -86,8 +130,11 @@
 		FDD9DEA61FF24D420002878D /* mes-bouteilles */ = {
 			isa = PBXGroup;
 			children = (
+				FD19C4551FF4FD1B006205DF /* Controllers */,
+				FD19C4561FF4FDDD006205DF /* Models */,
+				FD19C4571FF4FDEF006205DF /* Views */,
+				FD19C4581FF4FE01006205DF /* Extensions */,
 				FDD9DEA71FF24D420002878D /* AppDelegate.swift */,
-				FDD9DEA91FF24D420002878D /* ViewController.swift */,
 				FDD9DEAB1FF24D420002878D /* Main.storyboard */,
 				FDD9DEAE1FF24D420002878D /* Assets.xcassets */,
 				FDD9DEB01FF24D420002878D /* LaunchScreen.storyboard */,
@@ -199,8 +246,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FDD9DEAA1FF24D420002878D /* ViewController.swift in Sources */,
+				FD19C4621FF57558006205DF /* BottlesViewController.swift in Sources */,
+				FD19C45C1FF57174006205DF /* Bottle.swift in Sources */,
+				FD19C4601FF57517006205DF /* CellarsViewController.swift in Sources */,
 				FDD9DEA81FF24D420002878D /* AppDelegate.swift in Sources */,
+				FD19C4641FF57569006205DF /* BottleViewController.swift in Sources */,
+				FD19C45E1FF57503006205DF /* ViewController.swift in Sources */,
+				FD19C45A1FF57105006205DF /* Cellar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

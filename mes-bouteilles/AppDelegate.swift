@@ -7,12 +7,20 @@
 //
 
 import UIKit
+import RealmSwift
+import RxSwift
+import RxRealm
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
 	var window: UIWindow?
 
+	// if we have no realm might as well crash!
+	let realm = try! Realm()
+	var rxRealm: Reactive<Realm> {
+		return realm.rx
+	}
 
 	func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
 		// Override point for customization after application launch.
