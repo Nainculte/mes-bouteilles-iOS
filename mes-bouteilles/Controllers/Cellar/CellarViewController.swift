@@ -1,14 +1,14 @@
 //
-//  BottleViewController.swift
+//  CellarViewController.swift
 //  mes-bouteilles
 //
-//  Created by Olivier Dumenil on 28/12/2017.
-//  Copyright © 2017 Olivier Dumenil. All rights reserved.
+//  Created by Olivier Dumenil on 03/02/2018.
+//  Copyright © 2018 Olivier Dumenil. All rights reserved.
 //
 
 import UIKit
 
-class BottleViewController: ViewController {
+class CellarViewController: ViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

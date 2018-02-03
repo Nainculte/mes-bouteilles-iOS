@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="6bE-Mo-f6r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="pGT-UE-bDc">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -9,95 +9,93 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Navigation Controller-->
-        <scene sceneID="q9U-Xq-eTU">
+        <!--View Controller-->
+        <scene sceneID="gE8-hp-Ze2">
             <objects>
-                <navigationController id="6bE-Mo-f6r" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="KsY-wc-89v">
+                <viewController id="gmz-3u-giN" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Mdk-IC-Eup">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="0Ey-6j-tMc"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="vpZ-0H-XGj"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RNC-Ra-kO3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3193" y="407"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="9R4-le-pXM">
+            <objects>
+                <viewController id="QO4-ez-r0r" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="qpD-6L-0v4">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="nWq-Pt-gQe"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="6GF-mi-a7U"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Dex-cY-ocN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3193" y="-258"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="3bo-dH-316">
+            <objects>
+                <tabBarController id="pGT-UE-bDc" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="kub-eT-Al0">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="M9P-RF-4TE" kind="relationship" relationship="viewControllers" id="WSR-cg-EUY"/>
+                        <segue destination="rgW-8b-GAJ" kind="relationship" relationship="viewControllers" id="sgz-yo-Lfs"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aTe-hK-BYh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1434" y="75"/>
+        </scene>
+        <!--Item 1-->
+        <scene sceneID="9DY-hq-kWL">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="M9P-RF-4TE" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item 1" id="tId-lr-EWI"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="OXZ-Vc-MWq">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
+                    <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="Sbc-KE-rOS" kind="relationship" relationship="rootViewController" id="fIY-HE-QHA"/>
+                        <segue destination="QO4-ez-r0r" kind="relationship" relationship="rootViewController" id="RyI-cp-DYg"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="hOU-yW-Xgi" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="STS-N0-phk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-201" y="245"/>
+            <point key="canvasLocation" x="2385.5999999999999" y="-257.27136431784112"/>
         </scene>
-        <!--Cellars View Controller-->
-        <scene sceneID="ibe-S6-s2Q">
+        <!--Item 2-->
+        <scene sceneID="K4g-Hl-zys">
             <objects>
-                <viewController id="Sbc-KE-rOS" customClass="CellarsViewController" customModule="mes_bouteilles" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="BUT-Ll-moW">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="5qV-qJ-21d">
-                                <rect key="frame" x="37" y="186" width="240" height="128"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="hvS-z1-WQD">
-                                    <size key="itemSize" width="50" height="50"/>
-                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
-                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
-                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
-                                </collectionViewFlowLayout>
-                                <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="DbQ-Nl-LXx">
-                                        <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
-                                            <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                        </view>
-                                    </collectionViewCell>
-                                </cells>
-                            </collectionView>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <constraints>
-                            <constraint firstItem="kso-Hi-tvD" firstAttribute="trailing" secondItem="5qV-qJ-21d" secondAttribute="trailing" constant="98" id="1yG-UT-cVR"/>
-                            <constraint firstItem="5qV-qJ-21d" firstAttribute="leading" secondItem="kso-Hi-tvD" secondAttribute="leading" constant="37" id="6GS-58-aPx"/>
-                            <constraint firstItem="5qV-qJ-21d" firstAttribute="top" secondItem="kso-Hi-tvD" secondAttribute="top" constant="122" id="8oh-E0-4bH"/>
-                            <constraint firstItem="kso-Hi-tvD" firstAttribute="bottom" secondItem="5qV-qJ-21d" secondAttribute="bottom" constant="353" id="ccg-wl-zFd"/>
-                        </constraints>
-                        <viewLayoutGuide key="safeArea" id="kso-Hi-tvD"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="HyH-ME-WM5"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="5YC-8s-SKi" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="rgW-8b-GAJ" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item 2" id="JS1-t7-ydS"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="jh8-9y-vKP">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="gmz-3u-giN" kind="relationship" relationship="rootViewController" id="XI4-hL-CRA"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FI6-Cx-Wfl" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="569" y="244"/>
-        </scene>
-        <!--Bottles View Controller-->
-        <scene sceneID="xpc-dO-6Ql">
-            <objects>
-                <viewController id="c8E-GB-R8X" customClass="BottlesViewController" customModule="mes_bouteilles" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="W0A-Hy-F7R">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <viewLayoutGuide key="safeArea" id="1U8-NM-G32"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Aaz-Ub-sdB" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1270" y="241"/>
-        </scene>
-        <!--Bottle View Controller-->
-        <scene sceneID="Yoc-iI-xFz">
-            <objects>
-                <viewController id="Gg8-Hh-6q2" customClass="BottleViewController" customModule="mes_bouteilles" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="s9l-NR-166">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <viewLayoutGuide key="safeArea" id="snj-aT-Hds"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="6vE-Vg-hMg" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2036" y="240"/>
+            <point key="canvasLocation" x="2385.5999999999999" y="407.49625187406298"/>
         </scene>
     </scenes>
 </document>
