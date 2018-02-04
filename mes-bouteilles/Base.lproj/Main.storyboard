@@ -35,7 +35,10 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="nWq-Pt-gQe"/>
                     </view>
-                    <navigationItem key="navigationItem" id="6GF-mi-a7U"/>
+                    <navigationItem key="navigationItem" id="6GF-mi-a7U">
+                        <barButtonItem key="leftBarButtonItem" systemItem="organize" id="fcy-Vy-9jK"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="LCa-f4-Gqo"/>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Dex-cY-ocN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -59,11 +62,13 @@
             </objects>
             <point key="canvasLocation" x="1434" y="75"/>
         </scene>
-        <!--Item 1-->
+        <!--Navigation Controller-->
         <scene sceneID="9DY-hq-kWL">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="M9P-RF-4TE" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item 1" id="tId-lr-EWI"/>
+                    <tabBarItem key="tabBarItem" title="" image="cellar" id="tId-lr-EWI">
+                        <offsetWrapper key="titlePositionAdjustment" horizontal="0.0" vertical="-8"/>
+                    </tabBarItem>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="OXZ-Vc-MWq">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
@@ -78,11 +83,13 @@
             </objects>
             <point key="canvasLocation" x="2385.5999999999999" y="-257.27136431784112"/>
         </scene>
-        <!--Item 2-->
+        <!--Navigation Controller-->
         <scene sceneID="K4g-Hl-zys">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="rgW-8b-GAJ" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item 2" id="JS1-t7-ydS"/>
+                    <tabBarItem key="tabBarItem" title="" image="corkscrew" id="JS1-t7-ydS">
+                        <offsetWrapper key="titlePositionAdjustment" horizontal="0.0" vertical="-8"/>
+                    </tabBarItem>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="jh8-9y-vKP">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
@@ -98,4 +105,8 @@
             <point key="canvasLocation" x="2385.5999999999999" y="407.49625187406298"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="cellar" width="30" height="30"/>
+        <image name="corkscrew" width="30" height="30"/>
+    </resources>
 </document>
